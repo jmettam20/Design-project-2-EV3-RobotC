@@ -24,7 +24,9 @@ task main()
 	{
 		setMotorSyncEncoder(leftMotor, rightMotor, 0, 2170, 50);//move 1m
 
-		setMotorSyncEncoder(leftMotor,rightMotor, 100, 190, 25);//turn 90
+		setMotorSyncEncoder(leftMotor,rightMotor, 100, 250, 25);//turn 90
 	}
-	while(1);
+
+
+	//sleep(2000);										//Wait for 2 seconds before continuing on in the program.
 }
